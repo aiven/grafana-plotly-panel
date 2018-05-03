@@ -493,7 +493,7 @@ class PlotlyPanelCtrl extends MetricsPanelCtrl {
       // Maybe overwrite?
       // https://github.com/NatelEnergy/grafana-plotly-panel/issues/7
       //if (!mapping.x) {
-        mapping.x = dmapping.x;
+      mapping.x = dmapping.x;
       //}
       if (!mapping.y) {
         mapping.y = dmapping.y;

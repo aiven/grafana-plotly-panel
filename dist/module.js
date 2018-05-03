@@ -418,9 +418,7 @@ System.register(["app/plugins/sdk", "lodash", "moment", "jquery", "./lib/plotly.
                                 }
                             }
                         }
-                        if (!mapping.x) {
-                            mapping.x = dmapping.x;
-                        }
+                        mapping.x = dmapping.x;
                         if (!mapping.y) {
                             mapping.y = dmapping.y;
                         }
